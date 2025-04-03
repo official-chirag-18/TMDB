@@ -4,3 +4,8 @@ extensions.configure(com.facebook.react.ReactSettingsExtension){ ex -> ex.autoli
 rootProject.name = 'TMDB'
 include ':app'
 includeBuild('../node_modules/@react-native/gradle-plugin')
+<<<<<<< HEAD
+=======
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+>>>>>>> 5052e0b1a024031ca3c2fb67d26b042f3d99c6e3
