@@ -11,10 +11,7 @@ import com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost
 import com.facebook.react.defaults.DefaultReactNativeHost
 import com.facebook.react.soloader.OpenSourceMergedSoMapping
 import com.facebook.soloader.SoLoader
-<<<<<<< HEAD
-=======
 import com.oblador.vectoricons.VectorIconsPackage;
->>>>>>> 5052e0b1a024031ca3c2fb67d26b042f3d99c6e3
 
 class MainApplication : Application(), ReactApplication {
 
@@ -24,10 +21,7 @@ class MainApplication : Application(), ReactApplication {
             PackageList(this).packages.apply {
               // Packages that cannot be autolinked yet can be added manually here, for example:
               // add(MyReactNativePackage())
-<<<<<<< HEAD
-=======
               add(new VectorIconsPackage())
->>>>>>> 5052e0b1a024031ca3c2fb67d26b042f3d99c6e3
             }
 
         override fun getJSMainModuleName(): String = "index"

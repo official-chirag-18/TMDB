@@ -110,19 +110,12 @@ android {
 dependencies {
     // The version of react-native is set by the React Native Gradle Plugin
     implementation("com.facebook.react:react-android")
-<<<<<<< HEAD
-
-=======
     implementation project(':react-native-vector-icons')
->>>>>>> 5052e0b1a024031ca3c2fb67d26b042f3d99c6e3
     if (hermesEnabled.toBoolean()) {
         implementation("com.facebook.react:hermes-android")
     } else {
         implementation jscFlavor
     }
 }
-<<<<<<< HEAD
-=======
 
 apply from: file("../../node_modules/react-native-vector-icons/fonts.gradle")
->>>>>>> 5052e0b1a024031ca3c2fb67d26b042f3d99c6e3

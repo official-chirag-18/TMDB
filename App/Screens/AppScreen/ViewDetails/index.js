@@ -75,7 +75,7 @@ const ViewDetails = ({navigation, route}) => {
             <TextComp
               text={'Description'}
               customStyle={{
-                fontSize: 24,
+                fontSize: 18,
                 fontWeight: 600,
               }}
             />
